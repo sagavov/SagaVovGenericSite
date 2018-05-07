@@ -8,5 +8,6 @@ namespace Service
 {
     public class Class1
     {
+        public string abc { set; get; }
     }
 }
