@@ -8,5 +8,6 @@ namespace Tool
 {
     public class Class1
     {
+        public string tools { set; get; }
     }
 }
