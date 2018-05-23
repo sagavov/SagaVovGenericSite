@@ -6,6 +6,8 @@ using System.Web.Mvc;
 
 namespace Web.Controllers
 {
+    [RequireHttps]
+    [Authorize]
     public class VueController : Controller
     {
         // GET: Vue

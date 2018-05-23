@@ -46,9 +46,9 @@ namespace Web
             app.UseTwoFactorRememberBrowserCookie(DefaultAuthenticationTypes.TwoFactorRememberBrowserCookie);
 
             // 取消注释以下行可允许使用第三方登录提供程序登录
-            //app.UseMicrosoftAccountAuthentication(
-            //    clientId: "",
-            //    clientSecret: "");
+            app.UseMicrosoftAccountAuthentication(
+                clientId: "123",
+                clientSecret: "123");
 
             //app.UseTwitterAuthentication(
             //   consumerKey: "",
